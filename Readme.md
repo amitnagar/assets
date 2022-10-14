@@ -3,7 +3,7 @@
 gRPC based microservice.
 
 Input: document
-Output: set of entitites for the document
+Output: set of entities for the document
 
 The microservice is under development.
 
