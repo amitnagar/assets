@@ -1,12 +1,13 @@
-# Portfolio of assets
+# Custom entity extraction microservice 
 
-Projects (under development)
-1. AI powered semantic search engine 
-2. Custom Entity extraction
-3. MLops - example code using mlflow
-4. TopicModel examples
-5. Web scraping cope
+gRPC based microservice.
 
-Data, Software Architecture
-1. Building a data platform
-2. Microservices architecture, A fundamental choice - gRPC versus Kafka
+Input: document
+Output: set of entitites for the document
+
+The microservice is under development.
+
+- basic functionality using gRPC stubs is now working. 
+- functionality for extracting extities is developed b ut will not be checked in (IP)
+- @Todo                                                                    - invoke custom entity extraction function from the microserivce to retrieve set of entities for a document.
+  - UI frontend 
