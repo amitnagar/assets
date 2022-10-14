@@ -9,7 +9,7 @@ import streamlit_authenticator as stauth
 if __name__ == "__main__":
     names = ["Peter Parker", "Rebecca Miller", "Amit"]
     usernames = ["pparker", "rmiller", "amit"]
-    passwords = ["abc1122", "1122def", "ghi1122"]
+    passwords = ["xxxx", "xxxx", "xxxx"]
 
     credentials = {"usernames": {}}
 
