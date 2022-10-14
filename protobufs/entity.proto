@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+message EntityRequest {
+    int32 user_id = 1;
+    string document = 2;
+    int32 max_results = 3;
+}
+
+message EntityRecord {
+    int32 id = 1;
+    string category = 2;
+    string entity = 3;
+}
+
+message EntityResponse {
+    repeated EntityRecord erecords = 1;
+}
+
+service Entities {
+    rpc extract (EntityRequest) returns (EntityResponse);
+}
